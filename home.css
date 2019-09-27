@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+body {
+  font-family: verdana, sans-serif;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
