@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 150%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url("casino-bg.jpg");
+  background-size: cover;
+}
+
+.red {
+  color: red;
+}
