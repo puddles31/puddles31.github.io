@@ -1,2 +1,2 @@
 # puddles31.github.io
-help me please
+Welcome to my collection of website projects, made using HTML, CSS and JavaScript.
