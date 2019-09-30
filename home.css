@@ -21,12 +21,12 @@ body {
   text-align: center;
   font-family: Arial, sans-serif;
   cursor: pointer;
-  transition: height 1s, margin 1s;
+  transition: height 0.3s, margin 0.3s;
 }
 
 .content:hover {
-  height: 105px;
-  margin: 18px;
+  height: 115px;
+  margin: 10px;
 }
 
 .blackjack {
