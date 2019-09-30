@@ -13,11 +13,11 @@ body {
 
 .content {
   margin: 10px;
-  border: 2px solid blue;
+  border: 2px solid green;
   border-radius: 10px;
-  padding-top: 50%;
-  padding-bottom: 50%;
-  height: 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 100px;
   text-align: center;
   font-family: Arial, sans-serif;
 }
