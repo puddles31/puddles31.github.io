@@ -20,6 +20,13 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: height 1s, margin 1s;
+}
+
+.content:hover {
+  height: 105px;
+  margin: 18px;
 }
 
 .blackjack {
