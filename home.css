@@ -15,7 +15,6 @@ body {
   margin: 20px;
   border: 2px solid black;
   border-radius: 10px;
-  padding: 50%;
   height: 100px;
   background-repeat: no-repeat;
   text-align: center;
@@ -50,4 +49,8 @@ body {
   background-image: url("cursor.png");
   background-position: center;
   object-fit: contain;
+}
+
+p {
+ vertical-align: middle; 
 }
