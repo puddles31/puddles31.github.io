@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <br>
+  <center><button onclick="window.location.href='index.html'">Back to Home</button></center>
+    <br>
+    <input type="number" placeholder="Number 1" id="inputNumberOne">
+    <select id="chooseOperator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="x">x</option>
+      <option value="÷">÷</option>
+      <option value="%">%</option>
+    </select>
+    <input type="number" placeholder="Number 2" id="inputNumberTwo">
+    <button onclick="equalSign()">=</button>
+    <button onclick="reset()">Reset</button>
+    <br>
+    <p id="resultP"></p>
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+
+img {
+  width: 25%;
+}
+img:hover {
+  width: 25.5%;
+}
+
+.column1 {
+  float: left;
+  width: 70%;
+}
+
+.column2 {
+  float: right;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 125%;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.ratep {
+  font-size: 90%;
+}
+
+.upgrades {
+  font-size: 95%;
+}

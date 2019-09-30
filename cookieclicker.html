@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Cookie Clicker</title>
+   <link rel="stylesheet" href="cookieclicker.css">
+ </head>
+
+ <body>
+  <h1>Cookie Clicker</h1>
+  <br>
+  <center><button onclick="window.location.href='index.html'">Back to Home</button></center>
+  <br>
+  <div class="row">
+    <div class="column1" align="center">
+        <img src="cookie.png" onclick="cookieClicked()">
+        <br><br><br>
+        <p id="cookiesp">You have 0 cookies!</p>
+        <p id="ratep" class="ratep"></p>
+        <br>
+        <p id="clickersp" class="upgrades"></p>
+		    <p id="grandmasp" class="upgrades"></p>
+        <br><br><br><br>
+        <button onclick="resetCookies()">Reset</button>
+    </div>
+    <div class="column2" align="center">
+      <p>Upgrades</p>
+	    <br><br>
+	    <p class="upgrades">Clicker - Bakes 1 cookie every 10 seconds. - Costs 15 cookies each.</p>
+	    <button onclick="buyClicker1()">Buy 1</button><button onclick="buyClicker10()">Buy 10</button>
+    </div>
+  </div>
+  <script src="cookieclicker.js"> </script>
+ </body>
+</html>
