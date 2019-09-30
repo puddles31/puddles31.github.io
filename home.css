@@ -15,7 +15,7 @@ body {
   margin: 20px;
   border: 2px solid purple;
   border-radius: 10px;
-  vertical-align: middle;
+  padding: 50%;
   height: 100px;
   background-repeat: no-repeat;
   text-align: center;
