@@ -21,6 +21,9 @@ body {
   font-family: Arial, sans-serif;
   cursor: pointer;
   transition: height 0.3s, margin 0.3s;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .content:hover {
@@ -49,8 +52,4 @@ body {
   background-image: url("cursor.png");
   background-position: center;
   object-fit: contain;
-}
-
-p {
- vertical-align: middle; 
 }
