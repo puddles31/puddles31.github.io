@@ -12,12 +12,35 @@ body {
 }
 
 .content {
-  margin: 10px;
-  border: 2px solid green;
+  margin: 20px;
+  border: 2px solid purple;
   border-radius: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  vertical-align: middle;
   height: 100px;
+  background-repeat: no-repeat;
   text-align: center;
   font-family: Arial, sans-serif;
+}
+
+.blackjack {
+  background-image: url("casino-bg.jpg");
+  object-fit: cover;
+}
+
+.cookieclicker {
+  background-image: url("cookie.png");
+  background-position: center;
+  object-fit: contain;
+}
+
+.calculator {
+  background-image: url("calculator.png");
+  background-position: center;
+  object-fit: contain;
+}
+
+.clickometer {
+  background-image: url("cursor.png");
+  background-position: center;
+  object-fit: contain;
 }
