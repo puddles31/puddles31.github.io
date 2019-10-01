@@ -47,7 +47,7 @@ body {
 }
 
 .calculator {
-  background-image: url("calculator.png");
+  background-image: url("calculatorbanner.png");
   background-position: center;
   object-fit: contain;
   line-height: 100px;
