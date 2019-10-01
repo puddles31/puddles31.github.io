@@ -9,7 +9,6 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #45CFFF;
 }
 
 .content {
@@ -35,26 +34,26 @@ body {
 .blackjack {
   background-image: url("casino-bg.jpg");
   object-fit: cover;
-  line-height: 200px;
+  line-height: 100px;
 }
 
 .cookieclicker {
   background-image: url("cookie.png");
   background-position: center;
   object-fit: contain;
-  line-height: 200px;
+  line-height: 100px;
 }
 
 .calculator {
   background-image: url("calculator.png");
   background-position: center;
   object-fit: contain;
-  line-height: 200px;
+  line-height: 100px;
 }
 
 .clickometer {
   background-image: url("cursor.png");
   background-position: center;
   object-fit: contain;
-  line-height: 200px;
+  line-height: 100px;
 }
