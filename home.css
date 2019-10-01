@@ -51,6 +51,7 @@ body {
   background-position: center;
   object-fit: contain;
   line-height: 100px;
+  color: white;
 }
 
 .clickometer {
