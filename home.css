@@ -54,8 +54,8 @@ body {
   color: white;
 }
 
-.clickometer {
-  background-image: url("clickbanner.png");
+.clock {
+  background-image: url("clockbanner.png");
   background-position: center;
   object-fit: contain;
   line-height: 100px;
