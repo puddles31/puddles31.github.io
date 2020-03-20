@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana;
+}
+
+#clock {
+  display: inline;
+  font-size: 100px;
+  font-family: Verdana;
+  text-align: center;
+  border: 10px solid red;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#timer {
+  display: inline;
+  font-size: 100px;
+  font-family: Verdana;
+  text-align: center;
+  border: 10px solid #EC00FF;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.contain {
+  display: inline;
+  font-size: 60px;
+  font-family: Verdana;
+  text-align: center;
+  border: 6px solid red;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.containTimer {
+  display: inline;
+  font-size: 60px;
+  font-family: Verdana;
+  text-align: center;
+  border: 6px solid #EC00FF;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.bloo {
+  background-color: #47CFFF;
+}
+
+.future {
+  background-image: url("future2.png");
+  background-size: cover;
+}
