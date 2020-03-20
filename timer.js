@@ -1,4 +1,4 @@
-var countDownDate = new Date("2020-03-20T23:00:00Z").getTime();
+var countDownDate = new Date("2020-03-27T23:00:00Z").getTime();
 timerTick();
 var x = setInterval(timerTick, 1000);
 
@@ -15,6 +15,6 @@ function timerTick() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "Episodes are now airing!!";
+    document.getElementById("timer").innerHTML = "New episodes!!!!!!";
   }
 }
