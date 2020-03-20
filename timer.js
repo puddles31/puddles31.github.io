@@ -15,6 +15,6 @@ function timerTick() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "HERE WE ARE IN FEAR AND IT'S AAAAAAAAAAAAAAAAAAAAAAAAAA";
+    document.getElementById("timer").innerHTML = "Episodes are now airing!!";
   }
 }
