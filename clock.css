@@ -16,7 +16,7 @@ h1 {
 
 #timer {
   display: inline;
-  font-size: 100px;
+  font-size: 6vw;
   font-family: Verdana;
   text-align: center;
   border: 10px solid #EC00FF;
@@ -36,7 +36,7 @@ h1 {
 
 .containTimer {
   display: inline;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-family: Verdana;
   text-align: center;
   border: 6px solid #EC00FF;
@@ -50,5 +50,8 @@ h1 {
 
 .future {
   background-image: url("future2.png");
-  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-position: center top;
+  background-attachment: fixed;
 }
