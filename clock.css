@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana;
+}
+
+#clockTime {
+  display: inline;
+  font-size: 6vw;
+  font-family: Verdana;
+  text-align: center;
+  border: 10px solid red;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.clockContainer {
+  display: inline;
+  font-size: 2.5vw;
+  font-family: Verdana;
+  text-align: center;
+  border: 6px solid red;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.clockBody {
+  background-color: #47CFFF;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Timer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="timer.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</head>
+
+	<body class="timerBody">
+		<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  		<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Back to Home</a>
+				</li>
+    		<li class="nav-item">
+      		<a class="nav-link" href="clock.html">Clock</a>
+    		</li>
+    		<li class="nav-item">
+      		<a class="nav-link" href="timer.html">Timer</a>
+    		</li>
+    		<li class="nav-item">
+      		<a class="nav-link" href="stopwatch.html">Stopwatch</a>
+    		</li>
+				<li class="nav-item">
+      		<a class="nav-link" href="alarm.html">Alarm</a>
+    		</li>
+				<li class="nav-item">
+					<a class="nav-link" href="countdown.html">Countdown</a>
+				</li>
+  		</ul>
+		</nav>
+
+		<br><br><br>
+  	<center>
+			<h1 class="timerContainer">Timer</h1>
+    	<br><br><br>
+    	<p id="timerTime">00:00.00</p>
+      <br><br><br><br><br>
+      <h1 class="timerContainer" id="startButton" onclick="startTimer()">Start</h1>
+  	</center>
+		<script src="timer.js"></script>
+</body>
+</html>
