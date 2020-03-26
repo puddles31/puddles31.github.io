@@ -1,33 +1,38 @@
-h1 {
+h1, a {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   font-family: Verdana;
+  position: fixed;
 }
 
 #countdownTime {
   display: inline;
-  font-size: 6vw;
+  font-size: 4vw;
   font-family: Verdana;
   text-align: center;
   border: 10px solid #EC00FF;
   border-radius: 20px;
   background-color: white;
+  position: fixed;
+  left: 100px;
 }
 
 .countdownContainer {
   display: inline;
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-family: Verdana;
   text-align: center;
   border: 6px solid #EC00FF;
   border-radius: 12px;
   background-color: white;
+  position: fixed;
+  left: 100px;
 }
 
-.countdownBody {
-  background-image: url("future.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
