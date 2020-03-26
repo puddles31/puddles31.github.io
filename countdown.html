@@ -9,43 +9,23 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-		<link rel="icon" href="clockIcon.ico">
 	</head>
 
 	<body class="countdownBody">
-		<nav class="navbar navbar-expand-sm bg-light justify-content-center">
-  		<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Back to Home</a>
-				</li>
-    		<li class="nav-item">
-      		<a class="nav-link" href="clock.html">Clock</a>
-    		</li>
-    		<li class="nav-item">
-      		<a class="nav-link" href="timer.html">Timer</a>
-    		</li>
-    		<li class="nav-item">
-      		<a class="nav-link" href="stopwatch.html">Stopwatch</a>
-    		</li>
-				<li class="nav-item">
-      		<a class="nav-link" href="alarm.html">Alarm</a>
-    		</li>
-				<li class="nav-item">
-					<a class="nav-link" href="countdown.html">Countdown</a>
-				</li>
-  		</ul>
-		</nav>
+		<br><br>
 
-		<br><br><br>
-  	<center>
-			<h1 class="countdownContainer">Steven Universe Future Countdown</h1>
-    	<br><br><br>
-    	<p id="countdownTime"></p>
-    	<br><br><br><br>
-			<h1 class="countdownContainer">Homeworld Bound // Everything's Fine</h1> <br><br>
-	  	<h1 class="countdownContainer">I Am My Monster // The Future</h1> <br><br><br>
-    	<h1 class="countdownContainer">Steven Universe concludes Friday 11pm</h1>
-  	</center>
+		<video autoplay muted loop id="video">
+			<source src="futureVideo.mp4" type="video/mp4">
+		</video>
+
+		<h1 class="countdownContainer">Steven Universe Future Countdown</h1>
+  	<br><br><br><br>
+  	<p id="countdownTime"></p>
+  	<br><br><br><br><br><br><br><br>
+		<h1 class="countdownContainer">Homeworld Bound // Everything's Fine</h1> <br><br><br>
+	 	<h1 class="countdownContainer">I Am My Monster // The Future</h1> <br><br><br><br>
+  	<h1 class="countdownContainer">Steven Universe concludes Friday 11pm</h1><br><br><br><br>
+		<a class="countdownContainer" onclick="back()" href="#">Go Back</a>
 		<script src="countdown.js"></script>
 </body>
 </html>
