@@ -18,3 +18,8 @@ function countdownTick() {
     document.getElementById("countdownTime").innerHTML = "The finale begins now...";
   }
 }
+
+
+function back() {
+  window.history.back();
+}
